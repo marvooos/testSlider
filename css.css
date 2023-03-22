@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+}
+.slider {
+    width: 840px;
+    overflow: hidden;
+}
+.slider-line {
+    width:4800px;
+
+    transition: all 0.2s ease-out;
+    position: relative;
+    display: flex;
+}
+
+
+
+.slider-div {
+    width: 335px;
+    height: 402px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 60px;
+    border-radius: 30px;
+}
+.slider-div-active {
+    text-align: center;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 60px;
+    width: 380px;
+    height: 456px;
+}
+
+.margin {
+    margin-right: 30px;
+}
+.margin-fix {
+    margin-right: 0;
+}
+
+
+.container-buto {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container-buto button{
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+
+}
